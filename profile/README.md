@@ -1,26 +1,36 @@
-
-## OSCAL Compass
+<picture>
+  <img alt="OSCAL Compass logo" src="../assests/compass-circle.png" height="150">
+</picture>
 
 ----
 
-OSCAL Compass is an ensemble of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's [OSCAL](https://pages.nist.gov/OSCAL/documentation/) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL adoption.
+The OSCAL Compass project is set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL ([Open Security Controls Asessment Language](https://pages.nist.gov/OSCAL/)) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL adoption.
 
-**Have questions, need support, or want to discuss anything related to our organization?**
+## Get Started with OSCAL Compass
 
-[Join Our Community Call](https://zoom.us/j/92729235315?pwd=ZFIxU3RSanlVODh4a1g2SFdJOGpoZz09)
+* Check out the [Community README](https://github.com/oscal-compass/community/blob/main/README.md) to get started with using and contributing to the project.
+* You can find all the ways to collaborate with project maintainers and your fellow users of OSCAL Compass tools by visiting our [project collaboration](https://github.com/oscal-compass/community/blob/main/Collaboration.md) page.
 
-**When**: Every other Tuesday at 10:00 ET ([convert to your local time](https://dateful.com/convert/est-edt-eastern-time))
+## Learn about the projects
 
-To discover the actual meeting dates:
+[Trestle](https://github.com/oscal-compass/compliance-trestle) - Command line tool and SDK for interacting with OSCAL-based documents
 
-- Go to [Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=0b8u5el8ta4s93t2cm72tuvhhk@group.calendar.google.com&ctz=America/Los_Angeles)
-- Look at entries in `Tue` day of week for *Compliance Trestle Community Call*
-- To add to your calendar, `click` on `Compliance Trestle Community Call` and choose `copy to my calendar`
+[Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring) - Ready to use CI/CD pipeline configuration and setup using a GitOps approach with Trestle for OSCAL document management and collaboration.
 
-> **Note**: This call is part of a broader compliance initiative within a larger working group.
+[Compliance to Policy](https://github.com/oscal-compass/compliance-to-policy) (AKA C2P) - C2P bridges compliance-as-code defined in OSCAL and policy validation points (PVP) to generate OSCAL-based results
 
-**What**: Meeting agenda and notes [Google Docs](https://docs.google.com/document/d/1z9xvt-Z97j4CtEH1-nR9sMWul7jQkUi_fNY7BdMPgxM/edit#heading=h.nohkp1kbeduj)
+## Quick Links
 
-[Chat Anytime on Slack](https://cloud-native.slack.com/archives/C066TMUBEL8)
+### Website
 
-> **Note**: You can login to Slack using another account like Google, Apple
+[https://oscal-compass.github.io](https://oscal-compass.github.io/compliance-trestle/)
+> Note: This has Trestle specific information
+
+### Read the Blogs
+
+[Personas and Roles](https://dzone.com/articles/compass-compliance-part-1)  
+[Trestle SDK](https://dzone.com/articles/compliance-automated-standard-solution-compass-part-2-trestle-sdk)  
+[Artifacts and Personas](https://dzone.com/articles/compliance-automated-standard-solution-compass-part-3-artifacts-and-personas)  
+[Topologies of Compliance Policy Administration Centers](https://dzone.com/articles/compliance-automated-standard-solution-compass-part4-topologies-compliance-policy-administration-centers)  
+[A Lack of Network Boundaries Invites a Lack of Compliance](https://dzone.com/articles/compass-part-5-a-lack-of-network-boundaries-invites-a-lack-of-compliance)  
+[Compliance to Policy for Multiple Kubernetes Clusters](https://dzone.com/articles/compass-part-6-compliance-to-policy-for-multiple-kubernetes-clusters)  
