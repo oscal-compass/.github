@@ -1,5 +1,5 @@
 <picture>
-  <img alt="OSCAL Compass logo" src="../assests/compass-circle.png" height="150">
+  <img alt="OSCAL Compass logo" src="https://raw.githubusercontent.com/oscal-compass/community/main/assets/compass-circle.png" height="150">
 </picture>
 
 ----
