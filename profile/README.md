@@ -4,7 +4,7 @@ The OSCAL Compass project is set of tools that enable the creation, validation, 
 
 ## Get Started with OSCAL Compass
 
-Check out the [Community README](https://github.com/oscal-compass/community/blob/main/README.md) to get started with using and contributing to the project. The REAMDE also details all the ways to collaborate with project maintainers and your fellow users of OSCAL Compass tools.
+Check out the [Community README](https://github.com/oscal-compass/community/blob/main/README.md) to get started with using and contributing to the project. The README also details all the ways to collaborate with project maintainers and your fellow users of OSCAL Compass tools.
 
 ## Learn about the projects
 
