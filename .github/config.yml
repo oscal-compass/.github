@@ -1,0 +1,15 @@
+policy:
+  catalogs:
+    - OSPS_B
+  applicability:
+    - Maturity Level 2
+
+write-directory: evaluation_results
+services:
+  trestle:
+    plugin: github-repo
+    vars:
+      repo: compliance-trestle
+      owner: oscal-compass
+      token: {{ TOKEN }}
+
