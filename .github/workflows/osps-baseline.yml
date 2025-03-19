@@ -26,12 +26,12 @@ jobs:
 
       - name: Add GitHub Secret to config file so it is protected in outputs
         run: |
-          sed -i 's/{{ TOKEN }}/${{ env.TOKEN }}/g' ${{ github.workspace }}/.github/config.yml
+          sed -i "s/{{ TOKEN }}/${TOKEN}/g" .github/config.yml
         env:
           TOKEN: ${{ steps.app-token.outputs.token }}
       
       - name: Scan all repos
-        run: privateer run --binaries-path /.privateer/bin --config ${{ github.workspace }}/.github/config.yml
+        run: privateer run --binaries-path /.privateer/bin --config .github/config.yml
 
       - name: Print Result
         run: for file in evaluation_results/**/*.log; do echo $file; cat $file; echo; done
