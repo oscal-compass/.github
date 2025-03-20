@@ -1,11 +1,14 @@
 header:
   schema-version: 2.0.0
-  last-updated: '2025-03-06'
-  last-reviewed: '2025-03-06'
-  url: https://github.com/oscal-compass
+  last-updated: '2025-03-20'
+  last-reviewed: '2025-03-20'
+  url: https://github.com/oscal-compass/.github/blob/main/security-insights.yml
+  comment: |
+    This file contains the security insights information for the OSCAL Compass project.
 
 project:
   name: OSCAL Compass
+  homepage: https://github.com/oscal-compass
   administrators:
     - name: OSCAL Compass Oversight Committee
       email: oscal-compass-oversight@googlegroups.com
@@ -13,57 +16,36 @@ project:
   documentation:
     code-of-conduct: https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md
   repositories:
-    - name: Trestle
+    - name: trestle
       url: https://github.com/oscal-compass/compliance-trestle
       comment: |
         Command line tool and SDK for interacting with OSCAL-based compliance-as-code documents.
+    - name: Trestle Agile Authoring
+      url: https://github.com/oscal-compass/compliance-trestle-agile-authoring
+      comment: |
+        Ready to use CI/CD pipeline configuration and setup using a GitOps approach and Trestle SDK for 
+        human and machine readable OSCAL compliance documents collaborative authoring.
+        Manage semantic versioning, provenance traceability, change log, and approval based 
+        release to foster continuous compliance.
+    - name: compliance-to-policy (C2P)
+      url: https://github.com/oscal-compass/compliance-to-policy
+      comment: |
+        C2P is a plugin based tool to deploy compliance-as-code represented in OSCAL into 
+        policy validation or enforcement engines and collect and 
+        normalize their native results into OSCAL audit required format.
+        Supported Policy Engines include Kyverno (for Kubernetes resources), Open Cluster Management 
+        Policy Framework (for Kubernetes resources), Auditree (generic).
+    - name: compliance-to-policy-go (C2P Go)
+      url: https://github.com/oscal-compass/compliance-to-policy-go
+    - name: OSCAL SDK Go
+      url: https://github.com/oscal-compass/oscal-sdk-go
+      comment: |
+        OSCAL SDK for the Go programming language
+    - name: Community
+      url: https://github.com/oscal-compass/community
+      comment: |
+        OSCAL Compass community-wide collaboration space
   vulnerability-reporting:
     reports-accepted: true
     bug-bounty-available: false
     security-policy: https://github.com/oscal-compass/community/blob/main/SECURITY.md
-
-repository:
-  url: https://github.com/oscal-compass/compliance-trestle
-  status: active
-  accepts-change-request: true
-  accepts-automated-change-request: true
-  # From the complaince-trestle MAINTAINER.md file
-  # https://github.com/oscal-compass/compliance-trestle/blob/develop/MAINTAINERS.md
-  core-team:
-  - name:        Alejandro Jose Leiva Palomo
-    primary:     true
-  - name:        Christopher Butler
-    primary:     true
-  - name:        Lou Degenaro
-    primary:     true
-  - name:        Jennifer Power
-    primary:     true
-  - name:        Manjiree Gadgil
-    primary:     true
-  - name:        Vikas Agarwal
-    primary:     true
-  documentation:
-    contributing-guide: https://github.com/oscal-compass/compliance-trestle/blob/develop/CONTRIBUTING.md
-    security-policy: https://github.com/oscal-compass/community/blob/main/SECURITY.md
-  license:
-    url: https://github.com/oscal-compass/compliance-trestle/blob/develop/LICENSE
-    expression: Apache-2.0
-  release:
-    changelog: https://github.com/oscal-compass/compliance-trestle/blob/develop/CHANGELOG.md
-    automated-pipeline: true
-    attestations:
-      - name: PyPI Publish Attestation
-        location: https://pypi.org/project/compliance-trestle/#compliance_trestle-{version}.tar.gz
-        predicate-uri: https://docs.pypi.org/attestations/publish/v1
-        comment: |
-          This attestation communicates the Trusted Publisher identity
-          used to publish the project.
-    distribution-points:
-      - uri: https://github.com/oscal-compass/compliance-trestle/releases
-        comment: GitHub Release Page
-      - uri: https://pypi.org/project/compliance-trestle/
-  security:
-    assessments:
-      self:
-        comment: |
-          Self assessment has not yet been completed.

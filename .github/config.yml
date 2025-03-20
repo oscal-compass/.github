@@ -1,3 +1,7 @@
+vars:
+  token: {{ TOKEN }} # GH App token
+  owner: oscal-compass
+
 policy:
   catalogs:
     - OSPS_B
@@ -10,6 +14,3 @@ services:
     plugin: github-repo
     vars:
       repo: compliance-trestle
-      owner: oscal-compass
-      token: {{ TOKEN }}
-
