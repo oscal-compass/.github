@@ -1,0 +1,16 @@
+vars:
+  token: {{ TOKEN }} # GH App token
+  owner: oscal-compass
+
+policy:
+  catalogs:
+    - OSPS_B
+  applicability:
+    - Maturity Level 1
+
+write-directory: evaluation_results
+services:
+  trestle:
+    plugin: github-repo
+    vars:
+      repo: compliance-trestle

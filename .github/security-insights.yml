@@ -1,0 +1,51 @@
+header:
+  schema-version: 2.0.0
+  last-updated: '2025-03-20'
+  last-reviewed: '2025-03-20'
+  url: https://github.com/oscal-compass/.github/blob/main/security-insights.yml
+  comment: |
+    This file contains the security insights information for the OSCAL Compass project.
+
+project:
+  name: OSCAL Compass
+  homepage: https://github.com/oscal-compass
+  administrators:
+    - name: OSCAL Compass Oversight Committee
+      email: oscal-compass-oversight@googlegroups.com
+      primary: true
+  documentation:
+    code-of-conduct: https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md
+  repositories:
+    - name: trestle
+      url: https://github.com/oscal-compass/compliance-trestle
+      comment: |
+        Command line tool and SDK for interacting with OSCAL-based compliance-as-code documents.
+    - name: Trestle Agile Authoring
+      url: https://github.com/oscal-compass/compliance-trestle-agile-authoring
+      comment: |
+        Ready to use CI/CD pipeline configuration and setup using a GitOps approach and Trestle SDK for 
+        human and machine readable OSCAL compliance documents collaborative authoring.
+        Manage semantic versioning, provenance traceability, change log, and approval based 
+        release to foster continuous compliance.
+    - name: compliance-to-policy (C2P)
+      url: https://github.com/oscal-compass/compliance-to-policy
+      comment: |
+        C2P is a plugin based tool to deploy compliance-as-code represented in OSCAL into 
+        policy validation or enforcement engines and collect and 
+        normalize their native results into OSCAL audit required format.
+        Supported Policy Engines include Kyverno (for Kubernetes resources), Open Cluster Management 
+        Policy Framework (for Kubernetes resources), Auditree (generic).
+    - name: compliance-to-policy-go (C2P Go)
+      url: https://github.com/oscal-compass/compliance-to-policy-go
+    - name: OSCAL SDK Go
+      url: https://github.com/oscal-compass/oscal-sdk-go
+      comment: |
+        OSCAL SDK for the Go programming language
+    - name: Community
+      url: https://github.com/oscal-compass/community
+      comment: |
+        OSCAL Compass community-wide collaboration space
+  vulnerability-reporting:
+    reports-accepted: true
+    bug-bounty-available: false
+    security-policy: https://github.com/oscal-compass/community/blob/main/SECURITY.md
