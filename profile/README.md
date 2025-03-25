@@ -1,6 +1,6 @@
 # <img alt="OSCAL Compass Logo" width="100px" src="https://raw.githubusercontent.com/oscal-compass/community/main/assets/oscal-compass-icon-1200x1200.png" style="vertical-align: middle;" /> Welcome to the OSCAL Compass project
 
-The OSCAL Compass project is set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL ([Open Security Controls Assessment Language](https://pages.nist.gov/OSCAL/)) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL SDK and adoption by policy engines.
+The OSCAL Compass project is a set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL ([Open Security Controls Assessment Language](https://pages.nist.gov/OSCAL/)) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL SDK and adoption by policy engines.
 
 The OSCAL Compass project is hosted by the [Cloud Native Computing Foundation (CNCF)](https://cncf.io)
 
