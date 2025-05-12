@@ -14,3 +14,15 @@ services:
     plugin: github-repo
     vars:
       repo: compliance-trestle
+  oscal-sdk-go:
+    plugin: github-repo
+    vars:
+      repo: oscal-sdk-go
+  c2p:
+    plugin: github-repo
+    vars:
+      repo: compliance-to-policy
+  c2p-go:
+    plugin: github-repo
+    vars:
+      repo: compliance-to-policy-go
