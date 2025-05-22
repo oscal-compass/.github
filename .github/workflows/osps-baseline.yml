@@ -31,7 +31,8 @@ jobs:
           TOKEN: ${{ steps.app-token.outputs.token }}
       
       - name: Scan all repos
-        run: privateer run --binaries-path /.privateer/bin --config .github/config.yml
+        run: privateer run --binaries-path /.privateer/bin --config .github/config.yml > /dev/null 2>&1
 
       - name: Print Result
+        if: success() || failure()
         run: for file in evaluation_results/**/*.log; do echo $file; cat $file; echo; done
