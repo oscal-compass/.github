@@ -8,10 +8,18 @@ The OSCAL Compass project is hosted by the [Cloud Native Computing Foundation (C
 
 Check out the [Community page](https://oscal-compass.dev/community/) to get started with using and contributing to the project. This guide details all the ways to collaborate with project maintainers and your fellow users of OSCAL Compass tools. Anyone is welcome to participate and contribute provided they follow the OSCAL Compass [Code of Conduct](https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md).
 
+## Learn about the Projects
+
+[Trestle](https://github.com/oscal-compass/compliance-trestle) - Command line tool and SDK for interacting with OSCAL-based compliance-as-code documents
+
+[Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring) - Ready to use CI/CD pipeline configuration and setup using a GitOps approach and Trestle SDK for human and machine readable OSCAL compliance documents collaborative authoring. Manage semantic versioning, provenance traceability, change log, and approval based release to foster continuous compliance.
+
+[Compliance to Policy](https://github.com/oscal-compass/compliance-to-policy) (AKA C2P) - C2P is a plugin-based toool that transforms compliance-as-code represented in OSCAL into native formats understood by policy validation or enforcement engines, and collects and normalizes their native results into OSCAL audit required format.
+
 ## Quick Links
 
 - Visit the OSCAL Compass website at [https://oscal-compass.dev](https://oscal-compass.github.dev)
-- [Learn About the Projects](https://oscal-compass.dev/about)
+- See the [Project Listing](https://oscal-compass.dev/about)
 
 ### Read the Blogs
 
