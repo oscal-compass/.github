@@ -14,7 +14,7 @@ Check out the [Community page](https://oscal-compass.dev/community/) to get star
 
 [Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring) - Ready to use CI/CD pipeline configuration and setup using a GitOps approach and Trestle SDK for human and machine readable OSCAL compliance documents collaborative authoring. Manage semantic versioning, provenance traceability, change log, and approval based release to foster continuous compliance.
 
-[Compliance to Policy](https://github.com/oscal-compass/compliance-to-policy) (AKA C2P) - C2P is a plugin-based toool that transforms compliance-as-code represented in OSCAL into native formats understood by policy validation or enforcement engines, and collects and normalizes their native results into OSCAL audit required format.
+[Compliance to Policy](https://github.com/oscal-compass/compliance-to-policy) (AKA C2P) - C2P is a plugin-based tool that transforms compliance-as-code artifacts represented in OSCAL into native formats understood by policy validation or enforcement engines, and collects and normalizes their native results into OSCAL audit required format. It supports multiple policy engines such as Kyverno (for Kubernetes resources), Open Cluster Management Policy Framework (for Kubernetes resources), Auditree (generic), and others.
 
 ## Quick Links
 
