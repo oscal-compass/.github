@@ -18,8 +18,12 @@ Check out the [Community page](https://oscal-compass.dev/community/) to get star
 
 ## Quick Links
 
-- Visit the OSCAL Compass website at [https://oscal-compass.dev](https://oscal-compass.github.dev)
+- Visit the OSCAL Compass website at [https://oscal-compass.dev](https://oscal-compass.dev)
 - See the [Project Listing](https://oscal-compass.dev/about)
+
+## OSCAL Compass Lab
+
+The [OSCAL Compass Lab](https://github.com/oscal-compass-lab) organization comprises projects aligned with the OSCAL Compass project.
 
 ### Read the Blogs
 
