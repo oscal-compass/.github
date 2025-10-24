@@ -20,6 +20,7 @@ Check out the [Community page](https://oscal-compass.dev/community/) to get star
 
 - Visit the OSCAL Compass website at [https://oscal-compass.dev](https://oscal-compass.dev)
 - See the [Project Listing](https://oscal-compass.dev/about)
+- OSCAL Compass [members](https://github.com/orgs/oscal-compass/people)
 
 ## OSCAL Compass Lab
 
