@@ -12,7 +12,7 @@ Check out the [Community page](https://oscal-compass.dev/community/) to get star
 
 [Trestle](https://github.com/oscal-compass/compliance-trestle) - Command line tool and SDK for interacting with OSCAL-based compliance-as-code documents
 
-[Agentic Agile Authoring](https://github.com/oscal-compass/agentic-agile-authoring) - Compliance authoring for OSCAL artifacts based on MCP Server and GenAI agentic solution with Human-in-the-Loop (HITL).
+[Agentic Agile Authoring](https://github.com/oscal-compass/agentic-agile-authoring) - Compliance authoring for OSCAL artifacts based on the OSCAL Compass MCP Server and a GenAI agentic solution with Human-in-the-Loop (HITL) by design, as authoring skills run inside your IDE (Claude Code, OpenCode).
 
 [Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring) - Ready to use CI/CD pipeline configuration and setup using a GitOps approach and Trestle SDK for human and machine readable OSCAL compliance documents collaborative authoring. Manage semantic versioning, provenance traceability, change log, and approval based release to foster continuous compliance.
 
