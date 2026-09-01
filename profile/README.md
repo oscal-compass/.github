@@ -29,9 +29,16 @@ The [OSCAL Compass Lab](https://github.com/oscal-compass-lab) organization compr
 
 ### Read the Blogs
 
-[Personas and Roles](https://dzone.com/articles/compass-compliance-part-1)  
-[Trestle SDK](https://dzone.com/articles/compliance-automated-standard-solution-compass-part-2-trestle-sdk)  
-[Artifacts and Personas](https://dzone.com/articles/compliance-automated-standard-solution-compass-part-3-artifacts-and-personas)  
-[Topologies of Compliance Policy Administration Centers](https://dzone.com/articles/compliance-automated-standard-solution-compass-part4-topologies-compliance-policy-administration-centers)  
-[A Lack of Network Boundaries Invites a Lack of Compliance](https://dzone.com/articles/compass-part-5-a-lack-of-network-boundaries-invites-a-lack-of-compliance)  
-[Compliance to Policy for Multiple Kubernetes Clusters](https://dzone.com/articles/compass-part-6-compliance-to-policy-for-multiple-kubernetes-clusters)  
+| # | Blog |
+|---|------|
+| 1 | [Personas and Roles](https://dzone.com/articles/compass-compliance-part-1) |
+| 2 | [Trestle SDK](https://dzone.com/articles/compliance-automated-standard-solution-compass-part-2-trestle-sdk) |
+| 3 | [Artifacts and Personas](https://dzone.com/articles/compliance-automated-standard-solution-compass-part-3-artifacts-and-personas) |
+| 4 | [Topologies of Compliance Policy Administration Centers](https://dzone.com/articles/compliance-automated-standard-solution-compass-part4-topologies-compliance-policy-administration-centers) |
+| 5 | [A Lack of Network Boundaries Invites a Lack of Compliance](https://dzone.com/articles/compass-part-5-a-lack-of-network-boundaries-invites-a-lack-of-compliance) |
+| 6 | [Compliance to Policy for Multiple Kubernetes Clusters](https://dzone.com/articles/compass-part-6-compliance-to-policy-for-multiple-kubernetes-clusters) |
+| 7 | [C2P Using Auditree](https://dzone.com/articles/compass-part-7-c2p-using-auditree) |
+| 8 | [AI for Compliance w/ PDL](https://dzone.com/articles/ai-for-compliance-w-pdl) |
+| 9 | [OSCAL-Compass for Industry Complexity](https://dzone.com/articles/compliance-automated-standard-solution-compass-par) |
+| 10 | [OSCAL Mapping Compliance Scalability](https://dzone.com/articles/compass-part-10-oscal-mapping-compliance-scalability) |
+| 11 | [OSCAL MCP Compliance Code](https://dzone.com/articles/compass-part-11-oscal-mcp-compliance-code) |
