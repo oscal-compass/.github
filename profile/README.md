@@ -30,7 +30,7 @@ The [OSCAL Compass Lab](https://github.com/oscal-compass-lab) organization compr
 ### Read the Blogs
 
 | Number in Series| Link to the Blog |
-|---|------|
+|:---|:------|
 | 1 | [Personas and Roles](https://dzone.com/articles/compass-compliance-part-1) |
 | 2 | [Trestle SDK](https://dzone.com/articles/compliance-automated-standard-solution-compass-part-2-trestle-sdk) |
 | 3 | [Artifacts and Personas](https://dzone.com/articles/compliance-automated-standard-solution-compass-part-3-artifacts-and-personas) |
