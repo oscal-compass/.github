@@ -27,7 +27,7 @@ Check out the [Community page](https://oscal-compass.dev/community/) to get star
 
 The [OSCAL Compass Lab](https://github.com/oscal-compass-lab) organization comprises projects aligned with the OSCAL Compass project.
 
-### Read the Blogs
+## Read the Blogs
 
 | Number in Series| Link to the Blog |
 |:---|:------|
